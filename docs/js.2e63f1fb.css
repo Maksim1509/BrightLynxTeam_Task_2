@@ -1,0 +1,2 @@
+.horse-moves{box-sizing:border-box;margin:0 auto;width:30%;min-width:300px;padding:15px}.horse-moves__title{text-align:center;font-size:15px}.horse-moves__form,.horse-moves__label{display:flex;flex-direction:column}.horse-moves__label{font-family:sans-serif;font-weight:700}.horse-moves__input{width:80%;height:20px;margin-bottom:20px;padding-left:5px}.horse-moves__input:focus::placeholder{color:transparent;transition:.3s}.horse-moves__btn{width:40px;cursor:pointer;font-weight:700}
+/*# sourceMappingURL=js.2e63f1fb.css.map */

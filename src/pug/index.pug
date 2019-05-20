@@ -1,34 +1,13 @@
-include ../block/checkbox-button/checkbox-button
-include ../block/toggle/toggle
-include ../block/rate-btn/rate-btn
+include ../block/horse-moves/horse-moves
+
 <!DOCTYPE html>
 html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title TOXIN
+        title BrightLynxTeam_Task_2
     body
-        include ../block/form/form
-        include ../block/form-date/form-date
-        include ../block/form-date-dropdown/form-date-dropdown
-        include ../block/form-date-dropdown/form-date-dropdown
-        include ../block/form-filter-dropdown/form-filter-dropdown
-        include ../block/form-subscrip/form-subscrip
-        include ../block/form-rooms-dropdown/form-rooms-dropdown
-        div
-            include ../block/dropdown/dropdown
-        div
-            +checkbox-button('Можно курить',
-            'Можно с питомцами',
-            'Можно пригласить гостей (до 10 человек)')
-        div
-            include ../block/radio-btn/radio-btn
-        div
-            +toggle
-        div
-            include ../block/like-btn/like-btn
-        div
-            +rate-btn
+        +horse-moves
         script(src="../js/index.js")
                

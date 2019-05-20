@@ -1,0 +1,7 @@
+mixin horse-moves
+    h2.horse-moves__title Возможные ходы шахматного коня из заданной позиции.
+    fieldset.horse-moves
+        form(action="/").horse-moves__form
+            label.horse-moves__label Исходное положение:
+                input(type="text", placeholder="Введите позицию").horse-moves__input
+            input(type="button", value="Ok").horse-moves__btn
